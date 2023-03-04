@@ -30,7 +30,7 @@ freefemのコードに直すと
 
 このコードを少し直すと、メッシュ生成のコードになります
 
-<img width="467" alt="mesh_freefem" src="https://user-images.githubusercontent.com/1296728/222932851-f5b3c612-4c59-4155-ae6f-ac50a8aeaaaf.png">
+<img width="481" alt="mesh_freefem" src="https://user-images.githubusercontent.com/1296728/222933468-e03bf551-a070-4c9b-b558-defaefe93f86.png">
 
 結果は
 
