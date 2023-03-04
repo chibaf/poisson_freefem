@@ -30,3 +30,5 @@ freefemのコードに直すと
 
 <img width="467" alt="mesh_freefem" src="https://user-images.githubusercontent.com/1296728/222932851-f5b3c612-4c59-4155-ae6f-ac50a8aeaaaf.png">
 
+結果は
+
