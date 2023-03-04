@@ -2,6 +2,8 @@
 
 ここではPoisson方程式をfreefemを使って解きます。
 
+# メッシュ生成
+
 方程式を考える領域は
 
 ![poisson_boundary](https://user-images.githubusercontent.com/1296728/222932461-ba32a528-fe21-48fd-96c1-81fe190bf448.png)
