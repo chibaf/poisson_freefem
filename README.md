@@ -35,3 +35,11 @@ freefemのコードに直すと
 結果は
 
 ![poisson_mesh](https://user-images.githubusercontent.com/1296728/222933531-0d1f2ea1-4e5f-436c-aac8-8e025c19a44e.png)
+
+# freefemによるPoisson方程式の数値解の計算
+
+上で設定した領域でPoison方程式の近似解を求めます。以下の方程式を考えます
+
+$$
+-\Delta u = f
+$$
