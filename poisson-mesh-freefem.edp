@@ -7,6 +7,6 @@ border g2(t=0,pi){x=R2*cos(t);y=R2*sin(t);};
 border g3(t=-R2,-R1){x=t;y=0;};
 border g4(t=0,pi){x=R1*cos(pi-t);y=R1*sin(pi-t);};
 
-mesh Th=buildmesh(g1(nn)+g2(20*nn)+g3(nn)+g4(15*nn));
+mesh Th=buildmesh(g1(nn)+g2(5*nn)+g3(nn)+g4(3*nn));
 
 plot(Th,ps="poisson_mesh.eps");

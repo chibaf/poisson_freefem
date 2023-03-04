@@ -10,7 +10,7 @@ border g2(t=0,pi){x=R2*cos(t);y=R2*sin(t);wall;};
 border g3(t=-R2,-R1){x=t;y=0;wall;};
 border g4(t=0,pi){x=R1*cos(pi-t);y=R1*sin(pi-t);wall;};
 
-mesh Th=buildmesh(g1(nn)+g2(2*nn)+g3(nn)+g4(15*nn));
+mesh Th=buildmesh(g1(nn)+g2(5*nn)+g3(nn)+g4(3*nn));
 savemesh(Th,"poisson-freefem.msh");
 
 fespace Uh(Th, P1);
@@ -21,5 +21,5 @@ func f=x*y;
 solve poisson(u,v)
   = int2d(Th)(dx(u)*dx(v)+dy(u)*dy(v))-int2d(Th)(f*v);
 
-plot(u,fill=1,ps="poisson_solution.eps");
+plot(u,fill=1,ps="poisson_solution.eps",value=true);
 savesol("poisson-freefem.sol",Th,u);
