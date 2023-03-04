@@ -24,7 +24,7 @@ $$
 
 freefemのコードに直すと
 
-<img width="596" alt="boundary-freefem-code" src="https://user-images.githubusercontent.com/1296728/222932596-659617e2-38dc-4944-8e31-a1937d17cb68.png">
+<img width="583" alt="mesh_freefem" src="https://user-images.githubusercontent.com/1296728/222933424-e811270d-1d0d-4c02-a780-f883d43c41d1.png">
 
 ここでnnは各部分境界の分割数です。境界の分割数を指定することによりメッシュの細かさを調整します。
 
