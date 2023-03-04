@@ -19,3 +19,7 @@ $$
 \end{array}
 \end{eqnarray*}
 $$
+
+freefemのコードに直すと
+
+<img width="596" alt="boundary-freefem-code" src="https://user-images.githubusercontent.com/1296728/222932596-659617e2-38dc-4944-8e31-a1937d17cb68.png">
