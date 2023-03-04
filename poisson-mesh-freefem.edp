@@ -9,4 +9,4 @@ border g4(t=0,pi){x=R1*cos(pi-t);y=R1*sin(pi-t);};
 
 mesh Th=buildmesh(g1(nn)+g2(20*nn)+g3(nn)+g4(15*nn));
 
-plot(Th);
+plot(Th,ps="poisson_mesh.eps");
