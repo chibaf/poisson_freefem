@@ -1,2 +1,19 @@
 # poisson_freefem
-solving poisson equation by freefem
+
+ここではPoisson方程式をfreefemを使って解きます。
+
+方程式を考える領域は
+
+![poisson_boundary](https://user-images.githubusercontent.com/1296728/222932461-ba32a528-fe21-48fd-96c1-81fe190bf448.png)
+のようにとります。
+
+式で書くと
+
+\begin{eqnarray*}
+\begin{array}{l}
+\Gamma_1: x=t,y=0,\quad R_1 \le t \le R_2 \\
+\Gamma_2: x=R_2 \cos t, y=R_2 \sin t, \quad 0 \le t \le \pi \\
+\Gamma_3: x=t,y=0,\quad -R_2 \le t \le -R_1 \\
+\Gamma_4: x=R_1 \cos t,y=R_1 \sin t,\quad -\pi \le t \le 0
+\end{array}
+\end{eqnarray*}
