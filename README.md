@@ -34,4 +34,4 @@ freefemのコードに直すと
 
 結果は
 
-<img width="481" alt="mesh_freefem" src="https://user-images.githubusercontent.com/1296728/222933468-e03bf551-a070-4c9b-b558-defaefe93f86.png">
+![poisson_mesh](https://user-images.githubusercontent.com/1296728/222933531-0d1f2ea1-4e5f-436c-aac8-8e025c19a44e.png)
