@@ -6,7 +6,7 @@
 
 方程式を考える領域は
 
-![poisson_boundary](https://user-images.githubusercontent.com/1296728/222933265-f6abd284-6206-4493-a404-0b92ba89ee93.png)
+![poisson_boundary](https://user-images.githubusercontent.com/1296728/222933369-2fc3b7a6-62c3-474f-97f4-89d783ac4d40.png)
 のようにとります。
 
 式で書くと
