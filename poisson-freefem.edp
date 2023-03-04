@@ -1,0 +1,28 @@
+load "medit"
+
+real R1=3;
+real R2=5;
+int nn=10;
+int wall=1;
+
+border g1(t=R1,R2){x=t;y=0;wall;};
+border g2(t=0,pi){x=R2*cos(t);y=R2*sin(t);wall;};
+border g3(t=-R2,-R1){x=t;y=0;wall;};
+border g4(t=0,pi){x=R1*cos(pi-t);y=R1*sin(pi-t);wall;};
+
+mesh Th=buildmesh(g1(nn)+g2(2*nn)+g3(nn)+g4(15*nn));
+savemesh(Th,"poisson-freefem.msh");
+
+//plot(Th);
+
+fespace Uh(Th, P1);
+Uh u,v;
+
+func f=x*y;
+
+solve poisson(u,v)
+  = int2d(Th)(dx(u)*dx(v)+dy(u)*dy(v))-int2d(Th)(f*v);
+
+plot(u,fill=1);
+
+savesol("poisson-freefem.sol",Th,u);
