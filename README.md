@@ -47,5 +47,5 @@ $$
 境界条件は
 
 $$
-\frac{\partial}{\partial n}u=0 \quad {\rm on} \; \Gamma_1 \cup \Gamma_2 \cup \Gamma_3 \cup \Gamma_4
+\frac{\partial}{\partial n}u=0 \quad {\rm on }  \Gamma_1 \cup \Gamma_2 \cup \Gamma_3 \cup \Gamma_4
 $$
