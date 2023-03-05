@@ -71,5 +71,5 @@ $$
 これを使って方程式を書き直すと
 
 $$
-\int_\Omega \nabla u\cdot \nabla v dx  - \int_\Omega f ¥, v dx
+\int_\Omega \nabla u\cdot \nabla v dx  - \int_\Omega f \, v dx
 $$
