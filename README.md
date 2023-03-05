@@ -49,3 +49,9 @@ $$
 $$
 \frac{\partial}{\partial n}u=0 \quad {\rm on }  \Gamma_1 \cup \Gamma_2 \cup \Gamma_3 \cup \Gamma_4
 $$
+
+方程式に関数を掛けて積分して弱形式にします。
+
+$$
+-\int_\Omega \Delta u v dx = \int_\Omega f v dx
+$$
