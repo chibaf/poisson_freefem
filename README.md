@@ -62,7 +62,7 @@ $$
 -\int_\Omega \Delta u(x) v(x) dx=-\int_{\partial \Omega}\frac{\partial u}{\partial n}(x)v(x)d\sigma+\int_\Omega \nabla u\cdot \nabla v dx
 $$
 
-$\Omega$ では法線方向微分は $0$ なので
+$\partial\Omega$ では法線方向微分は $0$ なので
 
 $$
 -\int_\Omega \Delta u(x) v(x) dx = \int_\Omega \nabla u\cdot \nabla v dx
