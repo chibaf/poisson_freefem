@@ -76,7 +76,7 @@ $$
 
 これを参考にしてfreefemのコードを書きます
 
-<img width="470" alt="Poisson-solver-freefem" src="https://user-images.githubusercontent.com/1296728/222936413-e237f212-9915-4b96-bbfe-e762f73c711c.png">
+<img width="450" alt="poisson-freefem" src="https://user-images.githubusercontent.com/1296728/222966482-6a5bff9a-b0ae-4eb9-b7a7-fd4f3b0dd11c.png">
 
 １６行目ではメッシュ=Th上に区分1次の有限要素空間をつくります。次の行でその中の関数u,vを定義します。f=x*yは関数ｆの定義です。
 部分積分して方程式の階数を下げたのは、計算をP1要素で行うためです。
