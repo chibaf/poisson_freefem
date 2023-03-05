@@ -73,3 +73,7 @@ $$
 $$
 \int_\Omega \nabla u\cdot \nabla v dx  - \int_\Omega f v dx = 0
 $$
+
+これを参考にしてfreefemのコードを書きます
+
+<img width="470" alt="Poisson-solver-freefem" src="https://user-images.githubusercontent.com/1296728/222936413-e237f212-9915-4b96-bbfe-e762f73c711c.png">
