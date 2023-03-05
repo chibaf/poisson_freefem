@@ -67,3 +67,9 @@ $\Omega$ では法線方向微分は $0$ なので
 $$
 -\int_\Omega \Delta u(x) v(x) dx = \int_\Omega \nabla u\cdot \nabla v dx
 $$
+
+これを使って方程式を書き直すと
+
+$$
+\int_\Omega \nabla u\cdot \nabla v dx  = \int_\Omega f v dx
+$$
