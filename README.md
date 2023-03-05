@@ -77,3 +77,5 @@ $$
 これを参考にしてfreefemのコードを書きます
 
 <img width="470" alt="Poisson-solver-freefem" src="https://user-images.githubusercontent.com/1296728/222936413-e237f212-9915-4b96-bbfe-e762f73c711c.png">
+
+１６行目ではメッシュ=Th上に区分1時の有限要素空間をつくります。次の行でその中の関数u,vを定義します。f=x*y 
