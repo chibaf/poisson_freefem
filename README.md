@@ -38,12 +38,14 @@ freefemのコードに直すと
 
 # freefemによるPoisson方程式の数値解の計算
 
-上で設定した領域でPoison方程式の近似解を求めます。以下の方程式を考えます。境界条件は
-
-$$
-\frac{\partial}{\partial n}u=0 \quad {\rm on} ¥, \Gamma_ \cup
-$$
+上で設定した領域でPoison方程式の近似解を求めます。以下の方程式を考えます。
 
 $$
 -\Delta u = f
+$$
+
+境界条件は
+
+$$
+\frac{\partial}{\partial n}u=0 \quad {\rm on} \, \Gamma_1 \cup
 $$
