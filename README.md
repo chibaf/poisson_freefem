@@ -84,5 +84,5 @@ $$
 
 結果は以下のとおりです
 
-<img width="470" alt="Poisson-solver-freefem" src="https://user-images.githubusercontent.com/1296728/222937161-98d84c4f-5f77-4d5f-a254-9c5633fd4c00.png">
+![poisson_solution](https://user-images.githubusercontent.com/1296728/222937184-69db1a52-9060-4f04-b3f4-946998183aaf.png)
 
