@@ -55,3 +55,9 @@ $$
 $$
 -\int_\Omega \Delta u v dx = \int_\Omega f v dx
 $$
+
+左辺を部分積分します
+
+$$
+\int_\Omega \Delta u(x) v(x) dx=\int_{\partial \Omega}\frac{\partial u}{\partial n}(x)v(x)d\sigma-\int_\Omega \nabla u\cdot \nabla v dx
+$$
